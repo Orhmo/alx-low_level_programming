@@ -6,17 +6,17 @@
  */
 int main(void)
 {
-int i, j, k;
-for (i = 0; i < 100; i++)
+int digit1, digit2;
+for (digit1 = 0; digit1 < 9; digit1++)
 {
-j = i / 10;
-k = i % 10;
-putchar(j + '0');
-putchar(k + '0');
-if (i < 99)
+for (digit2 = digit1 + 1; digit2 < 10; digit2++)
 {
-putchar(44);
-putchar(32);
+putchar((digit1 % 10) + '0');
+putchar((digit2 % 10) + '0');
+if (digit1 == 8 && digit2 == 9)
+continue;
+putchar(',');
+putchar(' ');
 }
 }
 putchar('\n');
