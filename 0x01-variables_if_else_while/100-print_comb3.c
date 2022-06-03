@@ -6,19 +6,17 @@
  */
 int main(void)
 {
-int i;
-int j;
-for (i = 10; i <= 19; i++)
+int i, j, k;
+for (i = 0; i < 100; i++)
 {
-for (j = 10; j <= 19; j++)
+j = i / 10;
+k = i % 10;
+putchar(j + '0');
+putchar(k + '0');
+if (i < 99)
 {
-putchar((i % 10) + '0');
-putchar((j % 10) + '0');
-if (i != 19 ||  j != 19)
-{
-putchar(',');
-putchar(' ');
-}
+putchar(44);
+putchar(32);
 }
 }
 putchar('\n');
