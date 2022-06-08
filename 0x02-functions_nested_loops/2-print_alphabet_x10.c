@@ -4,21 +4,17 @@
  *
  *Return
  */
-
 void print_alphabet_x10(void)
 {
-int round = 0;
-char letter = 'a';
+char i;
+char j;
 
-while (round < 10)
+for (j = 0; j <= 9; j++)
 {
-letter = 'a';
-while (letter <= 'z')
+for (i = 'a'; i <= 'z'; i++)
 {
-_putchar(letter);
-letter++;
+_putchar(i);
 }
 _putchar('\n');
-round
 }
 }
