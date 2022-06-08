@@ -1,0 +1,11 @@
+#include "main.h"
+/**
+*_isalpha - checks for alphabet character
+*@c: ASCII character
+*
+*Return: 1 (if true)
+*
+*/
+
+
+
