@@ -2,9 +2,8 @@
 /**
  * main - Prints "_putchar" followed by a new line.
  *
- *Return : 0
+ *Return : void
  */
-
 int main(void)
 {
 char text[9] = "_putchar";
