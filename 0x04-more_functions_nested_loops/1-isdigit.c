@@ -3,7 +3,7 @@
  * _isdigit - check for numbers
  * @c: character
  *
- *Return: boolen
+ *Return: 1 or 0
  */
 int _isdigit(int c)
 {
