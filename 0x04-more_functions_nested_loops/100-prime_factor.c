@@ -7,7 +7,7 @@
 int main(void)
 {
 int c = 2;
-unsigned long number = 612852475143;
+long number = 612852475143;
 while (c != n)
 {
 if (n % c == 0)
