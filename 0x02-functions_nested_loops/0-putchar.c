@@ -4,7 +4,7 @@
  *
  *Return : void
  */
-int main()
+int main(void)
 {
 char text[9] = "_putchar";
 int i = 0;
