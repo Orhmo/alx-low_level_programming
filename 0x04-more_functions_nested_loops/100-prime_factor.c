@@ -6,19 +6,15 @@
  */
 int main(void)
 {
-int c = 2;
-long number = 612852475143;
-while (c != n)
+long int x = 612852475143;
+long int y;
+for (y = 2; y < x; y++)
 {
-if (n % c == 0)
+if (x % y == 0)
 {
-n = n / c;
-}
-else
-{
-c++;
+x = x / y;
 }
 }
-printf("%lu\n", n);
+printf("%ld\n", y);
 return (0);
 }
