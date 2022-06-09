@@ -3,7 +3,7 @@
 *_abs - main
 *@n: integer
 *
-*Return: int 
+*Return: int
 */
 int _abs(int n)
 {
