@@ -4,7 +4,7 @@
  *
  *Return : void
  */
-int main(void)
+int main(void)// this specifies there are no arguments taken by main
 {
 char text[9] = "_putchar";
 int i = 0;
