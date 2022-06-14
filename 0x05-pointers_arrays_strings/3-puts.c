@@ -5,10 +5,11 @@
  * @str: char array string type
  * 
  */
-while (*str != '\0')
+void _puts(char *str)
+{
+int i;
+
+for (i = 0; *(str) != '\0')
 {
 _puts(*str);
-str++;
-}
-_putchar('\n');
 }
