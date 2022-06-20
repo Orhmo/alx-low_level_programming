@@ -3,8 +3,8 @@
 
 /**
  * _strstr:  finds the first occurrence of the substring
- * @haystack: String
- * @needle: Substring
+ * @haystack: String.
+ * @needle: Substring.
  *
  * Return: a pointer to the beginning of the located substring, or NULL if the substring is not found.
  */
