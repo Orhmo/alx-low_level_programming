@@ -4,10 +4,8 @@
 /**
  * _strspn - search for set of bytes
  * @s: string
- * @accept: 
- *
+ * @accept: bytes
  * Return: the number of bytes in the initial segment of s
- *         
  */
 unsigned int _strspn(char *s, char *accept)
 {
