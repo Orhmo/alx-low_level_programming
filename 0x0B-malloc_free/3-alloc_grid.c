@@ -20,7 +20,7 @@ return (NULL);
 }
 s = (int **) malloc(height * sizeof(int *));
 
-if (arr == 0)
+if (s == 0)
 {
 return (NULL);
 }
